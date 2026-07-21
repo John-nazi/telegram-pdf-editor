@@ -369,7 +369,7 @@ async def iniciar(
 
     await update.message.reply_text(
         "🤖 *Bot de Planeación activo*\n\n"
-        "Utiliza el comando /semanas para consultar las "
+        "Utiliza el comando /Areas para consultar las "
         "carpetas de Órdenes de Trabajo Semanales.",
         parse_mode="Markdown",
     )
@@ -569,7 +569,7 @@ def main() -> None:
 
     aplicacion.add_handler(
         CommandHandler(
-            "semanas",
+            "Areas",
             mostrar_areas,
         )
     )
